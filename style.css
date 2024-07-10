@@ -57,7 +57,7 @@
     height:618px;
     background-image: url(assets/Hero-bg.png);
     background-repeat: no-repeat;
-    background-position;
+    background-position:cover;
   }
   .banner-container{
     width: 947px;
@@ -100,6 +100,109 @@
     letter-spacing: 0%;
     text-align: center;
   }
+
+/* my current targer section style */
+
+.target-section{
+  margin:50px 0px;
+}
+.targer-container{
+  width:1140px;
+  margin:0 auto;
+}
+
+.targer-container .target-title{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.targer-container .target-title h2{
+  color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 32px;
+font-weight: 800;
+line-height: 37px;
+letter-spacing: 0%;
+text-align: center;
+margin: 5px 0px;
+}
+
+.targer-container .target-title p{
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0%;
+  text-align: center;
+  margin: 5px;
+}
+
+.targer-container .target-card{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 25px;
+  gap:15px
+}
+
+
+
+.target-card .card h3{
+color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 24px;
+font-weight: 800;
+line-height: 36px;
+letter-spacing: 0%;
+text-align: left;
+margin:6px 0px;
+  
+}
+.target-card .card p{
+color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0%;
+text-align: left;
+margin:6px 0px
+}
+.target-card .card a{
+color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 16px;
+font-weight: 700;
+line-height: 19px;
+letter-spacing: 0%;
+text-align: left;
+text-decoration-line: underline;
+margin-top: 6px;
+}
+.card{
+  padding:40px;
+}
+
+.card-html{
+border-radius: 16px;
+background: rgba(255, 76, 30, 0.05);
+}
+.targer-container .target-card .card-css{
+  border-radius: 16px;
+background: rgba(0, 76, 232, 0.05);
+}
+.card-js{
+  border-radius: 16px;
+
+background: rgba(255, 223, 0, 0.05);
+}
+
+*/
+
 
 /* Support section  */
 .support-section{
